@@ -23,8 +23,8 @@ exports.onCreateWebpackConfig = ({
           ,tls: false
           ,child_process:false
           ,perf_hooks:false
-          ,util:require('util')
-          
+          ,"text-encoding":require('text-encoding')
+
         }
       }
       ,
