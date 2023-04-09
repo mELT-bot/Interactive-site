@@ -8,6 +8,7 @@ exports.onCreateWebpackConfig = ({
   }) => {
     actions.setWebpackConfig({
       resolve: {
+        
         fallback: {
           fs: false
           ,stream: false
@@ -22,6 +23,8 @@ exports.onCreateWebpackConfig = ({
           ,tls: false
           ,child_process:false
           ,perf_hooks:false
+          ,util:require('util')
+          
         }
       }
       ,
