@@ -19,6 +19,9 @@ exports.onCreateWebpackConfig = ({
           ,zlib:false
           ,os:false
           ,crypto:false
+          ,tls: false
+          ,child_process:false
+          ,perf_hooks:false
         }
       }
       ,
