@@ -23,7 +23,6 @@ exports.onCreateWebpackConfig = ({
           ,tls: false
           ,child_process:false
           ,perf_hooks:false
-          ,"text-encoding":require('text-encoding')
 
         }
       }
