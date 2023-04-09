@@ -1,4 +1,14 @@
 
+const TextEncodingPolyfill = require('text-encoding');
+Object.assign(global, {
+  TextEncoder: TextEncodingPolyfill.TextEncoder,
+  TextDecoder: TextEncodingPolyfill.TextDecoder,
+});
+
+
+const encoder = new TextEncoder();
+const decoder = new TextDecoder();
+
 exports.onCreateWebpackConfig = ({
     stage,
     rules,
@@ -23,7 +33,7 @@ exports.onCreateWebpackConfig = ({
           ,tls: false
           ,child_process:false
           ,perf_hooks:false
-
+          
         }
       }
       ,
