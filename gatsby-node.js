@@ -1,13 +1,16 @@
 
+
+
+const util = require('util')
 const TextEncodingPolyfill = require('text-encoding');
-Object.assign(global, {
+Object.assign(util, {
   TextEncoder: TextEncodingPolyfill.TextEncoder,
   TextDecoder: TextEncodingPolyfill.TextDecoder,
 });
 
 
-const encoder = new TextEncoder();
-const decoder = new TextDecoder();
+
+
 
 exports.onCreateWebpackConfig = ({
     stage,
@@ -33,7 +36,7 @@ exports.onCreateWebpackConfig = ({
           ,tls: false
           ,child_process:false
           ,perf_hooks:false
-          ,util: require.resolve('util')
+          ,util: util
         }
       }
       ,
