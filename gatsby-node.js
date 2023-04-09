@@ -1,14 +1,6 @@
 
 
 
-const util = require('util')
-const TextEncodingPolyfill = require('text-encoding');
-Object.assign(util, {
-  TextEncoder: TextEncodingPolyfill.TextEncoder,
-  TextDecoder: TextEncodingPolyfill.TextDecoder,
-});
-
-
 
 
 
@@ -36,7 +28,7 @@ exports.onCreateWebpackConfig = ({
           ,tls: false
           ,child_process:false
           ,perf_hooks:false
-          ,util: util
+          ,util: false
         }
       }
       ,
