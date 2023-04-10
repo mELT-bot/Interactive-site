@@ -15,27 +15,9 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "assert": "^2.0.0",
-    "audit": "^0.0.6",
-    "buffer": "^6.0.3",
-    "bulma": "^0.9.4",
-    "canvas": "^2.11.0",
-    "combined-stream": "^1.0.8",
-    "delayed-stream": "^1.0.0",
-    "fix": "^0.0.6",
-    "fs": "^0.0.1-security",
-    "gatsby": "^5.4.2",
-    "gatsby-source-filesystem": "^5.5.0",
-    "jsdom": "^21.1.0",
-    "net": "^1.0.2",
-    "paper": "^0.12.17",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-reconciler": "^0.29.0",
-    "stream-http": "^3.2.0",
-    "text-encoding": "^0.7.0",
-    "text-encoding-polyfill": "^0.6.7",
-    "tty-browserify": "^0.0.1",
-    "url": "^0.11.0"
+    "gatsby": "^5.4.2"
+
   }
 }
