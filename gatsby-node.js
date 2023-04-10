@@ -29,6 +29,8 @@ exports.onCreateWebpackConfig = ({
           ,child_process:false
           ,perf_hooks:false
           ,util: false
+          ,buffer: false
+          ,url: false
         }
       }
       ,

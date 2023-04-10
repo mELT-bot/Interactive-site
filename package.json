@@ -15,12 +15,13 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "gatsby": "^5.4.2",
-    "paper": "^0.12.17",
-    "jsdom": "^21.1.0",
     "bulma": "^0.9.4",
-    "canvas": "^2.11.0"
+    "canvas": "^2.11.0",
+    "gatsby": "^5.4.2",
+    "jsdom": "^21.1.0",
+    "net": "^1.0.2",
+    "paper": "^0.12.17",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
