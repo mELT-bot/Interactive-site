@@ -31,6 +31,7 @@ exports.onCreateWebpackConfig = ({
           ,util: false
           ,buffer: false
           ,url: false
+          ,assert: false
         }
       }
       ,
