@@ -34,6 +34,7 @@
     "react-reconciler": "^0.29.0",
     "stream-http": "^3.2.0",
     "text-encoding": "^0.7.0",
+    "text-encoding-polyfill": "^0.6.7",
     "tty-browserify": "^0.0.1",
     "url": "^0.11.0"
   }
