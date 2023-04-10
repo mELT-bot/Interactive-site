@@ -5,7 +5,6 @@ import "bulma/css/bulma.css"
 import { Link } from "gatsby"
 
 
-
 function Navbar() {
     const [active,setActive] = useState(true);
 
