@@ -16,12 +16,11 @@
   },
   "dependencies": {
     "bulma": "^0.9.4",
-    "canvas": "^2.11.2",
+    "canvas": "^2.10.2",
     "gatsby": "^5.8.1",
     "jsdom": "^21.1.1",
     "net": "^1.0.2",
     "node-loader": "^2.0.0",
-    "nw-gyp": "^3.6.6",
     "paper": "^0.12.17",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
