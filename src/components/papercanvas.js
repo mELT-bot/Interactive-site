@@ -3,8 +3,11 @@ import { Script ,ScriptStrategy,withPrefix} from "gatsby"
 import Layout from "../components/layout.js"
 
 import "../styles/canvas_styles.css"
-import Paper from 'paper'
 
+
+Object.assign(require,{'extensions':{'.pjs':null}})
+
+import Paper from 'paper'
 
 
 

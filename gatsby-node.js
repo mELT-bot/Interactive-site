@@ -12,8 +12,18 @@ exports.onCreateWebpackConfig = ({
     actions,
   }) => {
     actions.setWebpackConfig({
+      module: {
+        rules: [
+          {
+            test:  /.node$/,
+            use: 'node-loader',
+          },
+        ],
+      },
+
+      
       resolve: {
-        
+        extensions: ['.node'],
         fallback: {
           fs: false
           ,stream: false
@@ -34,9 +44,6 @@ exports.onCreateWebpackConfig = ({
           ,assert: false
         }
       }
-      ,
-    externals: {
-      canvas: "commonjs canvas" // Important (2)
-      }
+
     })
   }

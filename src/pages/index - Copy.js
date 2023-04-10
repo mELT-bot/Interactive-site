@@ -1,5 +1,6 @@
-import React, { useCallback, useState,useRef, useEffect } from 'react';
 import { Script ,ScriptStrategy,withPrefix} from "gatsby"
+import React, { useCallback, useState,useRef, useEffect } from 'react';
+
 import Layout from "../components/layout.js"
 
 import "../styles/canvas_styles.css"
