@@ -28,7 +28,7 @@ exports.onCreateWebpackConfig = ({
           ,tls: false
           ,child_process:false
           ,perf_hooks:false
-          ,util: require.resolve('.')
+          ,util: false
           ,buffer: false
           ,url: false
           ,assert: false
